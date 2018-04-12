@@ -9,7 +9,7 @@
             "email": "u3rajee@gmail.com"
         }
     ],
-    "minimum-stability": "1.1",
+    "minimum-stability": "1.0",
     "require": {
         "php": ">=5.3.0",
         "phpoffice/phpexcel": "~1.8.0",

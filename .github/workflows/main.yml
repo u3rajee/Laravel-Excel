@@ -1,0 +1,19 @@
+name: AppSec Security Scan
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+  
+  schedule:
+    - cron: "00 12 * * 6"
+
+jobs:
+  my_first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo Hello world!
